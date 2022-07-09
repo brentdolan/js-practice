@@ -26,7 +26,7 @@ export const answer: {
 } = {
   howManyCharacters: undefined, // replace undefined with the length of the string
   fifthCharacter: undefined, // replace undefined with the fifth character
-  upperCase: undefined, // replace undefined with the string in uppercase
+  upperCase: testString.toUpperCase(), // replace undefined with the string in uppercase
   lowerCase: undefined, // replace undefined with the string in lowercase
   carvedUp: undefined, // replace undefined with the string split into a list of its individual words
   itsAliveee: undefined, // replace undefined with the same string, replacing 'dead' with 'living'

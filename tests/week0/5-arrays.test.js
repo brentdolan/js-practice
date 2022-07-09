@@ -12,16 +12,16 @@ import {
 
 describe("0.4 - Booleans", () => {
   it("firstQuestion", () => {
-    expect(firstAnswer.length - firstQuestion.length).toBeGreaterThan(1);
-    expect(secondMethod).toBe("push");
+    expect(firstAnswer.length - firstQuestion.length).toBeGreaterThanOrEqual(1);
+    expect(firstMethod).toBe("push");
   });
   it("secondQuestion", () => {
     expect(secondAnswer).toBe(firstQuestion[firstQuestion.length - 1]);
-    expect(secondMethod).toBe("pop");
+    expect(secondMethod).toBe("at");
   });
   it("thirdQuestion", () => {
     expect(thirdAnswer).toEqual([1, 2, 3, 10, 11, 12]);
-    expect(secondMethod).toBe("concat");
+    expect(thirdMethod).toBe("concat");
   });
   it("fourthQuestion", () => {
     expect(fourthAnswer).toBe("Arrays are cool");
